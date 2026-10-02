@@ -543,10 +543,14 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                 <div class="card-body p-4 p-md-5">
 
                     <h3 class="mb-4 text-center">
-                        Find Your Song
-                    </h3>
+    Find Your Song
+</h3>
 
-                    <form method="POST" action="">
+<p class="text-light mb-4 text-center">
+    Choose your preferred genre, mood and language to get an Apple Music recommendation.
+</p>
+
+<form method="POST" action="">
 
                         <!-- GENRE -->
                         <div class="mb-4">
