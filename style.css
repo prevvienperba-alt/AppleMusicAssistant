@@ -1,0 +1,162 @@
+
+/* =====================================
+   APPLE MUSIC ASSISTANT - DARK THEME
+   ===================================== */
+
+/* Main page background */
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                 Roboto, Arial, sans-serif;
+    color: #ffffff;
+    background: linear-gradient(
+        135deg,
+        #4a1028 0%,
+        #17101f 50%,
+        #21113e 100%
+    );
+}
+
+/* Main heading */
+h1 {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.lead {
+    color: #c4bdce !important;
+}
+
+/* Main form card - remove white background */
+.card {
+    background: rgba(30, 25, 42, 0.88) !important;
+    color: #ffffff !important;
+    border: 1px solid rgba(255, 255, 255, 0.12) !important;
+    border-radius: 20px !important;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(15px);
+}
+
+/* Card content */
+.card-body {
+    background: transparent !important;
+    color: #ffffff !important;
+}
+
+/* Form heading */
+.card h3 {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+/* Form labels */
+.form-label {
+    color: #e5ddec !important;
+    font-weight: 600;
+}
+
+/* Dropdown fields */
+.form-select {
+    background-color: #211c2b !important;
+    color: #ffffff !important;
+    border: 1px solid #51465f !important;
+    border-radius: 12px !important;
+    padding: 16px 14px;
+    min-height: 54px;
+}
+
+/* Dropdown options */
+.form-select option {
+    background-color: #211c2b;
+    color: #ffffff;
+}
+
+/* Dropdown focus */
+.form-select:focus {
+    border-color: #a855f7 !important;
+    box-shadow: 0 0 0 0.2rem rgba(168, 85, 247, 0.25) !important;
+}
+
+/* Submit button */
+.btn-primary {
+    background: linear-gradient(135deg, #a855f7, #7c3aed) !important;
+    border: none !important;
+    color: #ffffff !important;
+    font-weight: 600;
+    padding: 14px;
+    border-radius: 12px !important;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #9333ea, #6d28d9) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(124, 58, 237, 0.3);
+}
+
+/* Recommendation section */
+.recommendation-card {
+    background: linear-gradient(
+        145deg,
+        rgba(63, 38, 82, 0.95),
+        rgba(30, 25, 47, 0.98)
+    ) !important;
+    color: #ffffff !important;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+/* Song title */
+.recommendation-card h2 {
+    color: #ffffff !important;
+    font-weight: 700;
+}
+
+/* Artist name and secondary text */
+.recommendation-card .text-secondary {
+    color: #c9bddb !important;
+}
+
+/* Recommendation divider */
+.recommendation-card hr {
+    border-color: rgba(255, 255, 255, 0.25);
+    opacity: 1;
+}
+
+/* Genre, mood, language labels */
+.recommendation-card small {
+    color: #c9bddb !important;
+}
+
+/* Selected values */
+.recommendation-card p.fw-semibold {
+    color: #ffffff !important;
+}
+
+/* Footer */
+.text-secondary {
+    color: #c9bddb !important;
+}
+
+/* Error message */
+.alert-warning {
+    background-color: #49351d;
+    color: #ffe5a3;
+    border: 1px solid #8a6b36;
+}
+
+/* Mobile layout */
+@media (max-width: 576px) {
+    .card-body {
+        padding: 24px !important;
+    }
+
+    .display-4 {
+        font-size: 2rem;
+    }
+
+    .recommendation-card h2 {
+        font-size: 1.7rem;
+    }
+}
